@@ -87,7 +87,7 @@ a {
 }
 
 #menu a:hover{
-	color: #fff;	
+	color: #fff;
 }
 
 #button a{
@@ -104,7 +104,6 @@ a {
 }
 
 #button a:hover{
-	
 	background-color: #000;
 }
 
@@ -292,4 +291,49 @@ input[type=text], input[type=text]:focus{
 	padding-left: 0.625em;
 	padding-right: 0.625em;
 	padding-bottom: 1.2em;
+}
+
+@media screen and (max-width: 1000px) {
+
+#inner{
+	padding-left: 1.0em;
+	padding-right: 1.0em;
+}
+
+#game{
+	text-align:center;
+}
+
+#gtxt {
+	float: none;
+	text-align: center;
+	max-width: 28em;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 1.2em;
+}
+
+#gvideo {
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+	
+}
+
+@media screen and (max-width: 876px) {
+	.crewPadd{
+		padding-top: 3.0em;
+	}
+}
+
+@media screen and (max-width: 568px){
+	#gtxt {
+	max-width: 20em;
+}
+
+#gvideo img{
+	width: 80%;
+	height: 80%;
+}
 }
