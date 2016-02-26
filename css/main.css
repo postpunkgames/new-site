@@ -318,6 +318,14 @@ input[type=email], input[type=email]:focus{
 	padding-bottom: 1.2em;
 }
 
+.twittBB:hover ~ .twitt, .fbBB:hover ~ .fb {
+    fill: #fff
+}
+
+.cfbBB:hover ~ .fb {
+	fill:#C30	
+}
+
 @media screen and (max-width: 1000px) {
 
 #inner{
