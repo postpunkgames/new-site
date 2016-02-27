@@ -361,7 +361,7 @@ input[type=email], input[type=email]:focus{
 	padding: 0;
 }
 
-#mce_inline_error, .mce-success-response {
+#response {
 	max-width: 33.750em;	
 	padding-top: 2.0em;
 }
