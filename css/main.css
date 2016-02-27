@@ -322,8 +322,17 @@ input[type=email], input[type=email]:focus{
     fill: #fff
 }
 
-.cfbBB:hover ~ .fb {
-	fill:#C30	
+.cfbBB:hover ~ .fbb {
+	fill:#d6c9ab	
+}
+
+.fbb {
+	fill:#FFF;
+	-webkit-transition: fill 0.5s;	
+}
+
+.fbb:hover {
+	fill:#d6c9ab
 }
 
 @media screen and (max-width: 1000px) {
