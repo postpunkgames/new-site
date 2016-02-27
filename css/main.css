@@ -360,6 +360,11 @@ input[type=email], input[type=email]:focus{
 	margin: 0;
 	padding: 0;
 }
+
+#response {
+	max-width: 33.750em;	
+	padding-top: 2.0em;
+}
 	
 }
 
