@@ -335,6 +335,47 @@ input[type=email], input[type=email]:focus{
 	fill:#d6c9ab
 }
 
+.gwd-div-jvg1 {
+	position:absolute;
+	top:2300px;
+right:100px;
+	bottom:300px;
+    width: 286px;
+    height: 315px;
+   	
+	padding:0px;
+
+	
+}
+
+
+@media screen and (max-width: 1600px) {
+	.gwd-div-jvg1 {
+	position:absolute;
+	top:2300px;
+	right:0px;
+	bottom:300px;
+    width: 286px;
+    height: 315px;
+   	
+	padding:0px;	
+}
+}
+
+@media screen and (max-width: 1300px) {
+	.gwd-div-jvg1 {
+	position:absolute;
+	top:2300px;
+	right:-1000px;
+	bottom:300px;
+    width: 286px;
+    height: 315px;
+   	
+	padding:0px;	
+}
+}
+
+
 @media screen and (max-width: 1000px) {
 
 #inner{
@@ -366,17 +407,50 @@ input[type=email], input[type=email]:focus{
 	margin-top: 2.0em;
 }
 	
+	.gwd-div-jvg1 {
+	position:absolute;
+	top:2300px;
+	right:-1000px;
+	bottom:300px;
+    width: 286px;
+    height: 315px;
+   	
+	padding:0px;	
+}
+	
 }
 
 @media screen and (max-width: 876px) {
 	.crewPadd{
 		padding-top: 3.0em;
 	}
+	
+		.gwd-div-jvg1 {
+	position:absolute;
+	top:2300px;
+	right:-1000px;
+	bottom:300px;
+    width: 286px;
+    height: 315px;
+   	
+	padding:0px;	
+}
 }
 
 @media screen and (max-width: 568px){
 	#gtxt {
 	max-width: 20em;
+}
+
+	.gwd-div-jvg1 {
+	position:absolute;
+	top:2300px;
+	right:-1000px;
+	bottom:300px;
+    width: 286px;
+    height: 315px;
+   	
+	padding:0px;	
 }
 
 #gvideo img{
