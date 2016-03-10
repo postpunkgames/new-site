@@ -126,11 +126,49 @@ a {
 }
 
 #rotator {
+	<!--
 	background:url(../images/top_bg.jpg);
 	background-position:center;
 	background-size: auto 18.438em;
+	-->
+	position:relative;
 	height: 18.438em;	
+}
 
+#rotator img {
+
+  position:absolute;
+  left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+@keyframes cf3FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#rotator img.top {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-direction: alternate;
 }
 	
 #games, #crew{
