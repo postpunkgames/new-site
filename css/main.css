@@ -437,7 +437,6 @@ input[type=email], input[type=email]:focus{
 	
 	.gwd-div-jvg1 {
 		top: 320px;
-		left: calc(50% - 140px);
 	}
 	
 }
@@ -453,7 +452,6 @@ input[type=email], input[type=email]:focus{
 	
 	.gwd-div-jvg1 {
 		top: 915px;
-		left: calc(50% - 140px);
 	}
 }
 
@@ -466,4 +464,25 @@ input[type=email], input[type=email]:focus{
 		width: 80%;
 		height: 80%;
 	}
+	
+}
+
+@media screen and (max-width: 449px){
+	
+	.gwd-div-jvg1 {
+		top: 920px;
+	}	
+	
+	#mc-embedded-subscribe{
+		width: 200px;
+		margin-top: 20px;	
+	}
+}
+
+@media screen and (max-width: 420px){
+	
+	.gwd-div-jvg1 {
+		top: 950px;
+	}	
+	
 }
