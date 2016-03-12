@@ -130,26 +130,16 @@ a {
 }
 
 #rotator {
-	<!--
-	background:url(../images/top_bg.jpg);
-	background-position:center;
-	background-size: auto 18.438em;
-	-->
 	position:relative;
 	height: 18.438em;	
 }
 
-#rotator img {
-
+#rotator {
   position:absolute;
   left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
 }
 
 @keyframes cf3FadeInOut {
