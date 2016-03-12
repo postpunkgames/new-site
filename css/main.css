@@ -17,6 +17,10 @@ html body {
 	background-color:#d6c9ab;
 	font-family: 'Quicksand-Bold';
 }
+
+#crew_inn {
+	position: relative;	
+}
 	
 body {
 	text-align:center
@@ -375,124 +379,91 @@ input[type=email], input[type=email]:focus{
 
 .gwd-div-jvg1 {
 	position:absolute;
-	top:2300px;
-right:100px;
+	top:200px;
+	right:-200px;
 	bottom:300px;
     width: 286px;
     height: 315px;
-   	
 	padding:0px;
-
-	
 }
 
+@media screen and (max-width: 1350px) {
 
-@media screen and (max-width: 1600px) {
 	.gwd-div-jvg1 {
-	position:absolute;
-	top:2300px;
-	right:0px;
-	bottom:300px;
-    width: 286px;
-    height: 315px;
-   	
-	padding:0px;	
-}
-}
+		top: 330px;
+		left: calc(50% - 140px);
+	}
 
-@media screen and (max-width: 1300px) {
-	.gwd-div-jvg1 {
-	position:absolute;
-	top:2300px;
-	right:-1000px;
-	bottom:300px;
-    width: 286px;
-    height: 315px;
-   	
-	padding:0px;	
-}
+	#crew {
+		padding-bottom: 120px;	
+	}
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
 
-#inner{
-	padding-left: 1.0em;
-	padding-right: 1.0em;
-}
+	#inner{
+		padding-left: 1.0em;
+		padding-right: 1.0em;
+	}
 
-#game{
-	text-align:center;
-}
+	#game{
+		text-align:center;
+	}
 
-#gtxt {
-	float: none;
-	text-align: center;
-	max-width: 28em;
-	margin: 0 auto;
-	padding: 0;
-	padding-top: 1.2em;
-}
+	#gtxt {
+		float: none;
+		text-align: center;
+		max-width: 28em;
+		margin: 0 auto;
+		padding: 0;
+		padding-top: 1.2em;
+	}
 
-#gvideo {
-	float: none;
-	margin: 0;
-	padding: 0;
-}
+	#gvideo {
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
 
-.mce-success-response {
-	max-width: 3.750em;	
-	margin-top: 2.0em;
-}
-	
-	.gwd-div-jvg1 {
-	position:absolute;
-	top:2300px;
-	right:-1000px;
-	bottom:300px;
-    width: 286px;
-    height: 315px;
-   	
-	padding:0px;	
-}
-	
-}
-
-@media screen and (max-width: 876px) {
-	.crewPadd{
-		padding-top: 3.0em;
+	.mce-success-response {
+		max-width: 3.750em;	
+		margin-top: 2.0em;
 	}
 	
-		.gwd-div-jvg1 {
-	position:absolute;
-	top:2300px;
-	right:-1000px;
-	bottom:300px;
-    width: 286px;
-    height: 315px;
-   	
-	padding:0px;	
+	.crewPadd {
+		bottom-margin: 50px;	
+	}
+	
+	.gwd-div-jvg1 {
+		top: 320px;
+		left: calc(50% - 140px);
+	}
+	
 }
+
+@media screen and (max-width: 915px) {
+	.crewPadd{
+		padding-bottom: 3.0em;
+	}
+	
+	#crew_inn {
+		padding-bottom:85px;	
+	}
+	
+	.gwd-div-jvg1 {
+		top: 915px;
+		left: calc(50% - 140px);
+	}
 }
 
 @media screen and (max-width: 568px){
 	#gtxt {
-	max-width: 20em;
-}
+		max-width: 20em;
+	}
 
-	.gwd-div-jvg1 {
-	position:absolute;
-	top:2300px;
-	right:-1000px;
-	bottom:300px;
-    width: 286px;
-    height: 315px;
-   	
-	padding:0px;	
-}
-
-#gvideo img{
-	width: 80%;
-	height: 80%;
-}
+	#gvideo img{
+		width: 80%;
+		height: 80%;
+	}
 }
