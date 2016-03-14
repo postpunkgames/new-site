@@ -26,12 +26,13 @@ ul.bjqs-controls.v-centered li a:hover{
 }
 
 ol.bjqs-markers li a{
-	padding:5px 5px;
+	padding:5px 5px 5px 5px;
 	background:#d6c9ab;;
 	color:#fff;
 	margin:3px;
 	text-decoration: none;
 	font-size: 0px;
+	line-height: 0px;
 	border-radius: 25px;
 }
 
