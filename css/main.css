@@ -357,7 +357,17 @@ input[type=email], input[type=email]:focus {
 	height: 315px;
 	padding: 0px;
 }
- @media screen and (max-width: 1350px) {
+
+@-moz-document url-prefix() {
+	.gwd-div-jvg1 {
+		position:absolute;
+		overflow: hidden;
+		
+	}	
+}
+
+
+@media screen and (max-width: 1350px) {
 .gwd-div-jvg1 {
 	top: 330px;
 	left: calc(50% - 140px);

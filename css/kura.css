@@ -3,7 +3,7 @@
     display: block;
     height: 72px;
     left: 0px;
-    position: absolute;
+    position: inherit;
     top: 0px;
     width: 286px;
     z-index: 0;
@@ -16,7 +16,7 @@
     -moz-transform-style: preserve-3d;
 }
 .gwd-div-1i9y {
-    position: absolute;
+    position: inherit;
     width: 168px;
     height: 218px;
     left: 52px;
@@ -31,7 +31,7 @@
 .gwd-div-1lyr {
     height: 79px;
     left: 87px;
-    position: absolute;
+    position: inherit;
     top: 157px;
     width: 47px;
     z-index: 0;
@@ -50,7 +50,7 @@
     display: block;
     height: 28px;
     left: -373px;
-    position: absolute;
+    position: inherit;
     top: 15px;
     width: 14px;
     z-index: 0;
@@ -65,7 +65,7 @@
 .gwd-div-1nsy {
     height: 79px;
     left: 376px;
-    position: absolute;
+    position: inherit;
     top: 149px;
     width: 47px;
     z-index: 0;
@@ -84,7 +84,7 @@
     display: block;
     height: 28px;
     left: -438px;
-    position: absolute;
+    position: inherit;
     top: 46px;
     width: 14px;
     z-index: 0;
@@ -98,7 +98,7 @@
 }
 .gwd-div-1sfk {
     left: 77px;
-    position: absolute;
+    position: inherit;
     top: 53px;
     z-index: 0;
     align-self: stretch;
@@ -118,7 +118,7 @@
     display: block;
     height: 135px;
     left: 0px;
-    position: absolute;
+    position: inherit;
     top: 0px;
     width: 121px;
     z-index: 0;
@@ -131,7 +131,7 @@
     -moz-transform-style: preserve-3d;
 }
 .gwd-div-1eek {
-    position: absolute;
+    position: inherit;
     width: 93px;
     height: 57.3134px;
     left: -180px;
@@ -150,7 +150,7 @@
     display: block;
     height: 85px;
     left: 0px;
-    position: absolute;
+    position: inherit;
     top: 0px;
     width: 83px;
     z-index: 0;
@@ -166,7 +166,7 @@
     display: block;
     height: 50px;
     left: 0px;
-    position: absolute;
+    position: inherit;
     top: 0px;
     width: 26px;
     z-index: 0;
@@ -277,7 +277,7 @@
     }
 }
 .gwd-div-16je {
-    position: absolute;
+    position: inherit;
     width: 31.7377px;
     height: 30.0662px;
     transform-origin: 6px -4.15679px 0px;
@@ -296,7 +296,7 @@
     display: block;
     height: 23px;
     left: -438px;
-    position: absolute;
+    position: inherit;
     top: 46px;
     width: 16px;
     z-index: 0;
@@ -312,7 +312,7 @@
     display: block;
     height: 14px;
     left: -438px;
-    position: absolute;
+    position: inherit;
     top: 46px;
     width: 31px;
     z-index: 0;
@@ -372,7 +372,7 @@
     }
 }
 .gwd-div-1p73 {
-    position: absolute;
+    position: inherit;
     width: 26.2035px;
     height: 32.6607px;
     transform-origin: 8.96711px -0.493606px 0px;
@@ -391,7 +391,7 @@
     display: block;
     height: 23px;
     left: -373px;
-    position: absolute;
+    position: inherit;
     top: 15px;
     width: 16px;
     z-index: 0;
@@ -407,7 +407,7 @@
     display: block;
     height: 14px;
     left: -373px;
-    position: absolute;
+    position: inherit;
     top: 15px;
     width: 31px;
     z-index: 0;
