@@ -362,7 +362,7 @@ input[type=email], input[type=email]:focus {
 	.gwd-div-jvg1 {
 		position:absolute;
 		overflow: hidden;
-		
+		right: -160px;
 	}	
 }
 
