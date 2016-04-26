@@ -14,13 +14,20 @@ html body {
 	vertical-align: baseline;
 	background-color: #d8d1c0;
 	font-family: 'Quicksand-Bold';
+	overflow:auto;
 }
+#container{
+	
+}
+
 #crew_inn {
 	position: relative;
 }
 body {
-	text-align: center
+	text-align: center;
+	
 }
+
 h1 {
 	font-size: 2.250em;
 	letter-spacing: -0.045em;
@@ -356,6 +363,7 @@ input[type=email], input[type=email]:focus {
 	width: 286px;
 	height: 315px;
 	padding: 0px;
+	overflow: hidden;
 }
 
 @-moz-document url-prefix() {
@@ -365,7 +373,6 @@ input[type=email], input[type=email]:focus {
 		right: -160px;
 	}	
 }
-
 
 @media screen and (max-width: 1350px) {
 .gwd-div-jvg1 {
